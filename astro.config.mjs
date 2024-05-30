@@ -26,8 +26,11 @@ export default defineConfig({
 					label: 'Use Cases',
 					items: [
 						{ label: 'AWS', link: '/guides/aws/' },
+						autogenerate: { directory: '/guides/aws' },
 						{ label: 'Azure', link: '/guides/azure/' },
-						{ label: 'GCP', link: '/guides/gcp/' }
+						autogenerate: { directory: '/guides/azure' },
+						{ label: 'GCP', link: '/guides/gcp/' },
+						autogenerate: { directory: '/guides/gcp' }
 					]
 				}
 			],
