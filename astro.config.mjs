@@ -21,9 +21,9 @@ export default defineConfig({
         {
           label: 'Use Cases',
 		// Autogenerate a group of links for the 'constellations' directory.
-		autogenerate: { directory: 'guides/aws' },
-		autogenerate: { directory: 'guides/azure' },
-		autogenerate: { directory: 'guides/gcp' }
+		autogenerate: { directory: 'guides/AWS Use Cases' },
+		autogenerate: { directory: 'guides/Azure Use Cases' },
+		autogenerate: { directory: 'guides/GCP Use Cases' }
         },
       ],
     }),
