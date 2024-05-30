@@ -14,17 +14,16 @@ export default defineConfig({
         {
           label: 'Guides',
           items: [
-            // Each item here is one entry in the navigation menu.
             { label: 'Start Here', link: '/guides/getting-started/' },
           ],
         },
         {
-          label: 'Use Cases',
-          items: [
-            autogenerate: { directory: 'guides/aws-use-cases' },
-			autogenerate: { directory: 'guides/azure-use-cases' },
-			autogenerate: { directory: 'guides/gcp-use-cases' }
-          ],
+          label: 'Use Case Demos',
+		  autogenerate: { directory: 'use-case-demos' }
+        },
+        {
+          label: 'Job Type Demos',
+          autogenerate: { directory: 'job-type-demos' },
         }
       ],
     }),
