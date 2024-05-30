@@ -21,23 +21,11 @@ export default defineConfig({
         {
           label: 'Use Cases',
           items: [
-            { label: 'AWS Use Cases', link: '/guides/aws-use-cases/' },
-            { label: 'Azure Use Cases', link: '/guides/azure-use-cases/' },
-            { label: 'GCP Use Cases', link: '/guides/gcp-use-cases/' },
+            autogenerate: { directory: 'guides/aws-use-cases' },
+			autogenerate: { directory: 'guides/azure-use-cases' },
+			autogenerate: { directory: 'guides/gcp-use-cases' }
           ],
-        },
-        {
-          label: 'AWS Use Cases',
-          autogenerate: { directory: 'guides/aws-use-cases' },
-        },
-        {
-          label: 'Azure Use Cases',
-          autogenerate: { directory: 'guides/azure-use-cases' },
-        },
-        {
-          label: 'GCP Use Cases',
-          autogenerate: { directory: 'guides/gcp-use-cases' },
-        },
+        }
       ],
     }),
   ],
