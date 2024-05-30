@@ -15,30 +15,15 @@ export default defineConfig({
           label: 'Guides',
           items: [
             // Each item here is one entry in the navigation menu.
-            { label: 'Example Guide', link: '/guides/example/' },
+            { label: 'Start Here', link: '/guides/getting-started/' },
           ],
-        },
-        {
-          label: 'Reference',
-          autogenerate: { directory: 'reference' },
         },
         {
           label: 'Use Cases',
-          items: [
-            { label: 'AWS', link: '/guides/aws/' },
-          ],
-        },
-        {
-          label: 'AWS Use Cases',
-          autogenerate: { directory: 'guides/aws' },
-        },
-        {
-          label: 'Azure Use Cases',
-          autogenerate: { directory: 'guides/azure' },
-        },
-        {
-          label: 'GCP Use Cases',
-          autogenerate: { directory: 'guides/gcp' },
+		// Autogenerate a group of links for the 'constellations' directory.
+		autogenerate: { directory: 'guides/aws' },
+		autogenerate: { directory: 'guides/azure' },
+		autogenerate: { directory: 'guides/gcp' }
         },
       ],
     }),
