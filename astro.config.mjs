@@ -6,7 +6,7 @@ export default defineConfig({
   site: 'https://minhion.github.io',
   integrations: [
     starlight({
-      title: 'VSE Control-M Documentation Site',
+      title: 'VSE Control-M Docs Site',
       social: {
         github: 'https://github.com/withastro/starlight',
       },
