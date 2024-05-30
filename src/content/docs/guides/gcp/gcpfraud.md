@@ -26,4 +26,4 @@ This workflow features accessing Google Cloud Storage and AWS S3 using S3 Compat
 - The folder that is ordered daily in Production is **zzz-mc-gcp-fraud-detection**.
 
 ## Screenshot of Demo Flow
-![](../images/gcp.JPG)
+![](../../../../assets/gcp.jpg)
