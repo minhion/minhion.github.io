@@ -10,6 +10,7 @@ export default defineConfig({
       customCss: [
         // Relative path to your @font-face CSS file.
         './src/fonts/font-face.css',
+        './src/styles/custom.css',
       ],
       social: {
         github: 'https://github.com/withastro/starlight',
