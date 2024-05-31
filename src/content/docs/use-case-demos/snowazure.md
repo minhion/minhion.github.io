@@ -1,6 +1,11 @@
 ---
 title: "Snowflake and Azure Data Pipeline"
 description: "Snowflake and Azure Data Pipeline Use Case"
+sidebar:
+  # Add a badge to the link
+  badge:
+    text: New
+    variant: tip
 ---
 
 # Azure Data Pipeline
