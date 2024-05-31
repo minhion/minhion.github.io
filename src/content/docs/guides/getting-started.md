@@ -1,17 +1,19 @@
 ---
 title: Getting Started
 description: VSE Control-M Demo System Rules of Engagement
+attrs:
+  target: _blank
 ---
 
-#Standard Demo User Guide
+# Standard Demo User Guide
 
 1. Log into the either Control-M VSE QA or PROD.
 
 | Description          | Link                                |
 |----------------------|-------------------------------------|
-| Link to Control-M VSE PROD| [CTM VSE PROD](https://ctmawsdemoprod.vse.bmc.com/ControlM {:target="_blank"} |
-| Link to Control-M VSE QA| [CTM VSE QA](https://ctmawsdemoqa.vse.bmc.com/ControlM){:target="_blank"} |
-| Link to Control-M VSE DEV| [CTM VSE DEV](https://ctmawsdemodev.vse.bmc.com/ControlM/){:target="_blank"} |
+| Link to Control-M VSE PROD| [CTM VSE PROD](https://ctmawsdemoprod.vse.bmc.com/ControlM)  |
+| Link to Control-M VSE QA| [CTM VSE QA](https://ctmawsdemoqa.vse.bmc.com/ControlM) |
+| Link to Control-M VSE DEV| [CTM VSE DEV](https://ctmawsdemodev.vse.bmc.com/ControlM/) |
 
 2. Navigate to the Self-Service Portal in the Monitoring Domain
 3. (Optional) Create a viewpoint for zzz* jobs
